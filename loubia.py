@@ -3,6 +3,7 @@
 # By Nassim Abbaoui (nassim.abbaoui@bt.com / nassim.abbaoui@gmail.com)
 # Based on work presented here http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
 # The original payload (malicious java serialized object) was generated using a modified version of ysoserial (https://github.com/frohoff/ysoserial) that allows using pipes/redirections in the command to execute
+# CVE-2015-4852 
 
 import socket
 import sys
